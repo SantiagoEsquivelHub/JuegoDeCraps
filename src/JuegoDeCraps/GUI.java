@@ -92,6 +92,7 @@ public class GUI extends JFrame {
         this.add(panelResultatos, BorderLayout.EAST);
 
         resultadosDados = new JTextArea(4,31);
+        resultadosDados.setEditable(false);
         separator = new JSeparator();
         separator.setPreferredSize(new Dimension(320, 7));
         separator.setBackground(Color.BLUE);
